@@ -1,5 +1,4 @@
 import './App.css';
-import MyButton from './components/clickMeButton';
 import Welcome from './components/welcome';
 import Profile from './profile';
 
@@ -9,7 +8,6 @@ function App() {
       <div className="profile-card">
         <Profile />
         <Welcome />
-        <MyButton />
       </div>
     </div>
   );
